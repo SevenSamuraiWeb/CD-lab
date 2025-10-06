@@ -1,0 +1,5 @@
+Hello, World!
+This is a test. Hello again...
+Numbers like 1234 or symbols #@! should be ignored. HELLO mixed with hello should still count as hello.
+New-lines also
+separate words.
