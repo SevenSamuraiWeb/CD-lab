@@ -1,0 +1,13 @@
+# Ignore all top-level entries (this will ignore files and folders at repo root)
+/*
+
+# But don't ignore top-level directories — we want to keep tracking directory contents
+!/*/
+
+# Keep the .gitignore file itself tracked
+!/.gitignore
+
+# Explicitly ignore the reference folder at the repository root and its contents
+/reference/
+
+/.vscode/
