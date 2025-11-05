@@ -1,0 +1,11 @@
+Compute FIRST and FOLLOW sets for a context-free grammar.
+
+The program expects the grammar in a text file where each production is on a
+separate line using the format:
+
+	NonTerminal -> production1 | production2 | ...
+
+Symbols inside a production should be separated by whitespace. Epsilon may be
+written as one of {ε, #, epsilon, EPSILON, lambda, Λ}. Lines starting with `//`
+are treated as comments. The first production encountered determines the start
+symbol, and the script prints the FIRST and FOLLOW sets for every non-terminal.

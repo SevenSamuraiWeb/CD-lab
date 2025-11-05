@@ -1,0 +1,4 @@
+S -> IF ( B ) S | WHILE ( B ) S | ID = E ; | { SL }
+SL -> S SL | ε
+B -> true | false | ID
+E -> ID | NUM
